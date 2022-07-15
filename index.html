@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ventas plantas suculentas sucus cactus Honduras comayagua">
+    <meta name="generator" content="Hugo 0.98.0">
+    <title>Sucus de Ryder</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/album/">
+    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+        
+        .b-example-divider {
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+        
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+        
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+        
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+        
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+        
+        .boton {
+            animation-name: flotante;
+            animation-duration: 2s;
+            animation-timing-function: ease-in;
+            animation-iteration-count: infinite;
+        }
+        
+        .boton:hover {
+            animation: none;
+        }
+        
+        @keyframes flotante {
+            0% {
+                transform: scale(1.1, 1.1);
+            }
+            50% {
+                transform: scale(1);
+            }
+            100% {
+                transform: scale(1.1);
+            }
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <!-- <header>
+        <nav class="navbar navbar-dark navbar-expand-lg bg-primary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#productos">Categorías</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#precios">Buscar Precios</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header> -->
+
+    <main>
+
+        <!-- INICIO CARRUSEL -->
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 0"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 1" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://www.wallpapertip.com/wmimgs/7-72603_breaking-bad-heisenberg-picture-for-widescreen-wallpaper-breaking.jpg" alt=" " class="bd-placeholder-img " style="height:100vh;  filter: grayscale(0.6);" width="100% ">
+
+                    <div class="container">
+                        <div class="carousel-caption position-absolute top-50" style="transform: translateY(-40%);">
+                            <h1 class="display-1 fw-bold">Bienvenido</h1>
+                            <p class="fs-4">Ofrecemos productos de calidad y a buenos precios.</p>
+                            <a href="#introduccion" class="boton btn border-0">
+                                <h1 class="px-2 text-white" style="font-size: 4em;">
+                                    <i class="fa-solid fa-caret-down"></i>
+                                </h1>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1574610758891-5b809b6e6e2e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80" alt="" class="bd-placeholder-img" style="height:100vh;" width="100%">
+
+                    <div class="container">
+                        <div class="carousel-caption text-start position-absolute top-50" style="transform: translateY(-40%);">
+                            <h1 class="display-1 fw-bold">Nuestras categorías</h1>
+                            <p class="fs-4">Ofrecemos distintos tipos de plantas para que puedas elegir la de tu preferencia.</p>
+                            <a href="#productos" class="px-5"><span class="boton btn btn-lg btn-primary">Ver Catálogo</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://miracomosehace.com/wp-content/uploads/2020/12/isla-contraste.jpg" alt=" " class="bd-placeholder-img " style="height:100vh;" width="100% ">
+                    <div class="container ">
+                        <div class="carousel-caption position-absolute top-50" style="transform: translateY(-40%);;">
+                            <h1 class="display-3 fw-bold">¿Preocupado por el precio?</h1>
+                            <p class="fs-4">Te ayudamos a encontrar todas aquellas plantas que se ajusten a tu bolsillo.
+                                <!--  para que no te vallas con las manos vacías-->
+                            </p>
+                            <a href="#precios" class="px-5"><span class="boton btn btn-lg btn-primary">Buscar</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="https://images.unsplash.com/photo-1574610758891-5b809b6e6e2e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80" alt=" " class="bd-placeholder-img " style="height:100vh; " width="100% ">
+
+                    <div class="container ">
+                        <div class="carousel-caption position-absolute top-50 text-end" style="transform: translateY(-40%);">
+                            <h1 class="display-1 fw-bold">Nuestras plantas</h1>
+                            <p class="fs-4">Te mostramos todas las plantas que ofrecemos para que puedas elegir a tu gusto.</p>
+                            <a href="#" class="px-5"><span class="boton btn btn-lg btn-primary">Ver Plantas</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden ">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- FIN CARRUSEL -->
+
+        <section class="container-fluid" id="introduccion" style="height: 100vh;">
+            <div class="row h-100">
+                <div class="col-12 col-lg-6">
+                    <div class="container p-5 h-100 d-flex">
+                        <div class="logo bg-danger rounded-circle m-auto overflow-hidden" style="height: 380px; width: 380px;">
+                            <img src="https://www.tooltyp.com/wp-content/uploads/2014/10/1900x920-8-beneficios-de-usar-imagenes-en-nuestros-sitios-web.jpg" alt="..." width="380" height="380">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12  col-lg-6 bg-light d-flex flex-column">
+                    <div class="container p-5 m-auto">
+                        <h1 class="display-4 text-primary"><b>Introducción</b></h1>
+                        <br>
+                        <p class="fs-4" style="color:#8f8f8f;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe repellendus, nobis mollitia aperiam non cumque quos, veritatis officia molestiae qui ut beatae deleniti illum eaque nemo quis molestias? Nobis, cum.</p>
+                        <br>
+                        <p>
+                            <a class="btn btn-outline-primary px-4 fs-5" href="#productos" style="border-radius: 30px;">Leer más</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION CATEGORIAS -->
+        <section class="p-5" id="productos">
+            <h2 class="fw-bold text-center display-5 text-primary my-2"> Nuestros Productos </h2>
+        </section>
+        <div class="album py-2 bg-light">
+
+            <div class="container py-5">
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" id="categoriasProductos">
+                    <div class="col" data-aos="zoom-in">
+                        <a href="# " class="text-dark " style="text-decoration: none; ">
+                            <div class="card shadow-sm h-100 ">
+                                <img src="https://drive.google.com/uc?export=download&id=18R-Mi9Oc7fGEBz2pWe9HOuC94fAuFDhp " alt=" " width="100%" height="225 " class="bd-placeholder-img card-img-top " loading="lazy">
+                                <div class="card-body ">
+                                    <h4 class="card-title text-center ">~ Suculentas ~</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        <section class="bg-primary p-5 " id="precios">
+            <br>
+            <h1 class="text-white text-center fw-bold">¿No sabes si tienes suficiente para comprar?</h1>
+            <br>
+            <h5 class="text-light text-center mx-5 ">¡No te preocupes, ingresa la cantidad de dinero con la que cuentas y te ayudamos a encontrar opciones que se ajusten a tu billetera!</h5>
+            <br>
+            <div class="d-flex ">
+                <input type="number" name="" id=" " class="form-control text-center " placeholder="Ingresa aquí el valor ">
+                <button class="btn btn-success mx-3 "> Buscar </button>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="text-muted py-5 ">
+        <div class="container ">
+            <p class="float-end mb-1 ">
+                <a href="# ">Subir</a>
+            </p>
+            <p class="mb-1 ">Sucus de Ryder &copy; 2022 Todos los derechos de autos reservados</p>
+            <!-- <p class="mb-0 ">New to Bootstrap? <a href="/ ">Visit the homepage</a> or read our <a href="../getting-started/introduction/ ">getting started guide</a>.</p> -->
+        </div>
+
+    </footer>
+    <script src="./assets/dist/js/bootstrap.bundle.min.js "></script>
+    <script src="https://kit.fontawesome.com/7df056807c.js " crossorigin="anonymous "></script>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000
+    });
+
+    const categorias = document.querySelector('#categoriasProductos');
+    const categoria =
+        `<div class="col" data-aos="zoom-in">
+                        <a href="# " class="text-dark " style="text-decoration: none; ">
+                            <div class="card shadow-sm h-100 ">
+                                <img src="https://drive.google.com/uc?export=download&id=18R-Mi9Oc7fGEBz2pWe9HOuC94fAuFDhp " alt=" " width="100%" height="225 " class="bd-placeholder-img card-img-top " loading="lazy">
+                                <div class="card-body ">
+                                    <h4 class="card-title text-center ">~ Suculentas ~</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>`;
+
+    for (i = 0; i < 10; i++) {
+        categorias.innerHTML += categoria;
+    }
+</script>
+
+</html>
